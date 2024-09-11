@@ -1,0 +1,27 @@
+<%- include('./../components/head') %>
+<link rel="stylesheet" href="css/login_style.css">
+
+<body>
+    <div class="login-container">
+        <h2>Sign in</h2>
+        <form action="/signin" method="post">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="submit" value="Sign in">
+        </form>
+        <div class="social-login">
+            <a href="">Facebook</a>
+            <a href="">Google</a>
+        </div>
+        <div class="links">
+            <p>Don't have an account? <a href="/signup"> Sign up </a></p>
+            <p><a href="">Forgot password?</a></p>
+            <p>for <a href="/admin/signin">admin</a></p>
+        </div>
+        <div class="container-btn">
+            <a href="/">Back</a>
+        </div>
+    </div>
+    
+</body>
+</html>

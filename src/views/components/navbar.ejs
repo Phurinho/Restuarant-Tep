@@ -1,0 +1,28 @@
+<header>
+    <%- include('./../components/hamburgerbar') %>
+    <a href="" class="logo">
+        <img src="/assets/logo.png" alt="">
+    </a>
+
+    <ul class="navlist">
+        <li><a href="/">Home</a></li>
+        <li><a href="/book">Course</a></li>
+        <li><a href="/chef">Chef info.</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+    <div class="nav-content">
+        <% if (!admin) { %>
+            <a href="/admin/signin"><i class="ri-user-line"></i></a>
+        <% } else { %>
+            <a href="/admin"><i class="ri-user-line"></i></a>
+        <% } %>
+        <a href="/order"><i class="ri-heart-2-line"></i></a>
+        <a href="/checkout"><i class="ri-shopping-bag-line"></i></a>
+        
+        <% if (admin) { %>
+            <a href="/admin/logout">Logout</a>
+        <% } %>
+        
+    </div>
+
+</header>

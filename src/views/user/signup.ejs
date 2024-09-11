@@ -1,0 +1,40 @@
+<%- include('./../components/head') %>
+<link rel="stylesheet" href="css/sign_up_style.css">
+
+<body>
+    <div class="signup-container">
+        <div class="signup-form">
+            <h2>Sign up</h2>
+            <form action="/signup" method="post">
+                <div class="form-group">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+               
+                <div class="form-group">
+                    <label for="email">Email </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required minlength="8">
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required minlength="8">
+                    <span class="password-info">Minimum 8 characters</span>
+                </div>
+                <button type="submit"> Sign Up </button>
+            </form>
+        </div>
+        <div class="links">
+            <p>Already have an account?<a href="/signin">Sign in</a></p>
+            <p><a href="">Forgot password?</a></p>
+        </div>
+        <div class="container-btn">
+            <a href="/">Back</a>
+        </div>
+    </div>
+</body>
+</html>
