@@ -80,7 +80,7 @@
     
 }
 
-@media (max-width:768px){
+@media only screen and (max-width:768px){
     .hero{
         height: 70vh;
     }
@@ -92,7 +92,7 @@
     }
 }
 
-@media (max-width:480px){
+@media only screen and (max-width:480px){
     .hero{
         height: 63vh;
     }
@@ -107,7 +107,7 @@
     }
 }
 
-@media (max-width:320px){
+@media only screen and (max-width:320px){
     .hero{
         height: 57vh;
     }

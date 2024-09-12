@@ -492,7 +492,7 @@ section {
 
 
 
-@media (max-width:1024px) {
+@media only screen and (max-width:1024px) {
 
     header{
         justify-content: space-between;
@@ -537,7 +537,7 @@ section {
     
     
 }
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
 
     header{
         justify-content: space-between;
@@ -581,7 +581,7 @@ section {
     
 }
 
-@media (max-width:480px){
+@media only screen and (max-width:480px){
     .contract-info-map iframe {
         max-width:20;
     }
@@ -600,7 +600,7 @@ section {
 }
 
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
     header {
         padding: 10px 2%;
     }

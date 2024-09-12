@@ -98,7 +98,7 @@
     color: var(--bg-color);
 }
 
-@media (max-width:1024px){
+@media only screen and (max-width:1024px){
     .chef{
         height: 98vh;
         
@@ -108,7 +108,7 @@
     }
 }
 
-@media (max-width:768px){
+@media only screen and (max-width:768px){
     .chef{
         height: 70vh;
     }
@@ -118,7 +118,7 @@
     }
 }
 
-@media (max-width:480px){
+@media only screen and (max-width:480px){
     .chef{
         height: 63vh;
     }
@@ -134,7 +134,7 @@
     
 }
 
-@media (max-width:320px){
+@media only screen and (max-width:320px){
     .chef{
         height: 57vh;
     }

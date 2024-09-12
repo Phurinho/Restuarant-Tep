@@ -122,21 +122,21 @@ body{
     transition: 0.2s;
 }
 
-@media (max-width:768px){
+@media only screen and (max-width:768px){
     .container-btn {
         left: -130px;
         top: -60px;
     }
 }
 
-@media (max-width:480px){
+@media only screen and (max-width:480px){
     .container-btn {
         left: -40px;
         top: -70px;
     }
 }
 
-@media (max-width:320px){
+@media only screen and (max-width:320px){
     .login-container{
         width: 280px;
     }

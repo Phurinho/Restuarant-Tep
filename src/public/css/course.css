@@ -92,7 +92,7 @@
 }
 
 
-@media (max-width:1024px){
+@media only screen and (max-width:1024px){
     .hero2{
         height: 98vh;
         
@@ -102,34 +102,39 @@
     }
 }
 
-@media (max-width:768px){
+@media only screen and (max-width:768px){
     
     .hero2{
         height: 70vh;
     }
 
     .hero-text h1{
-        margin:-80px 0 20px;
+        margin:-120px 0 20px;
 
     }
 
     .block{
         height: 70vh;
+        margin: 120px 0px;
     }
 }
 
-@media (max-width:480px){
+@media only screen and (max-width:480px){
     .hero2{
         height: 60vh;
     }
     .hero-text h1{
         font-size: 5.6rem;
     }
+    .block{
+        height: 70vh;
+        margin: 140px 0px;
+    }
     .cta{
         height: 50vh;
     }
 }
-@media (max-width:320px){
+@media only screen and (max-width:320px){
     .hero2{
         height: 57vh;
     }
