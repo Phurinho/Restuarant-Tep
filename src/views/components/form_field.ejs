@@ -29,14 +29,13 @@
     <i class='bx bxs-message-square-detail'></i>
 </div>
 
-<button type="submit" class="btn">Submit</button>
 
-<% if (!admin) { %>
-    <div class="container-btn">
-        <a href="/">Back</a>
-    </div>
-<% } else { %>
-    <div class="container-btn">
-        <a href="/admin">Back</a>
-    </div>
-<% } %>
+<div class="container-btn">
+    <% if (!admin) { %>
+            <a href="/">Back</a>
+            <button type="submit" class="btn">Submit</button>
+    <% } else { %>
+            <a href="/admin">Back</a>
+            <button type="submit" class="btn">Submit</button>
+    <% } %>
+</div>
