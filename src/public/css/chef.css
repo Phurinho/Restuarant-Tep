@@ -98,6 +98,16 @@
     color: var(--bg-color);
 }
 
+@media (max-width:1024px){
+    .chef{
+        height: 98vh;
+        
+    }
+    .chef-text h1{
+        font-size: 6rem;
+    }
+}
+
 @media (max-width:768px){
     .chef{
         height: 70vh;
@@ -122,4 +132,29 @@
         height: 53vh;
     }
     
+}
+
+@media (max-width:320px){
+    .chef{
+        height: 57vh;
+    }
+    .chef-text h1{
+        font-size: 3rem;
+    }
+    .chef-text p{
+        font-size: 1.2rem;
+    }
+    .chef-about p{
+        font-size: 1rem;
+    }
+    .cta{
+        height: 47vh;
+    }
+    .cta-content h2{
+        font-size: 2rem;
+    }
+    .cta-btn{
+        padding: 8px 20px;
+        font-size: 1rem;
+    }
 }

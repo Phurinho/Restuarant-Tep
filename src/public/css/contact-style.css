@@ -30,6 +30,16 @@
     
 }
 
+@media (max-width:1024px){
+    .contact{
+        height: 98vh;
+        
+    }
+    .contact-text h1{
+        font-size: 6rem;
+    }
+}
+
 @media (max-width:768px){
     .contact{
         height: 70vh;
@@ -46,5 +56,19 @@
     .contact-text h1{
         font-size: 4.8rem;
     }
+}
+
+@media (max-width:320px){
+    .contact{
+        height: 57vh;
+    }
+    .contact-text h1{
+        font-size: 3rem;
+        margin:20px 0 20px;
+    }
+    .contact-text p{
+        font-size: 1rem;
+    }
+   
 }
 

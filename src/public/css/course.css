@@ -92,6 +92,16 @@
 }
 
 
+@media (max-width:1024px){
+    .hero2{
+        height: 98vh;
+        
+    }
+    .hero-text h1{
+        font-size: 6rem;
+    }
+}
+
 @media (max-width:768px){
     
     .hero2{
@@ -117,5 +127,34 @@
     }
     .cta{
         height: 50vh;
+    }
+}
+@media (max-width:320px){
+    .hero2{
+        height: 57vh;
+    }
+    .hero-text h1{
+        font-size: 3rem;
+        margin:-140px 0 20px;
+    }
+    .hero-text p{
+        font-size: 1.2rem;
+    }
+    .block{
+        margin: 150px 0px;
+        
+    }
+    .block-menu{
+        padding: 10px;
+    }
+    .cta{
+        height: 47vh;
+    }
+    .cta-content h2{
+        font-size: 2rem;
+    }
+    .cta-btn{
+        padding: 8px 20px;
+        font-size: 1rem;
     }
 }

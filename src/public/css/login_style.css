@@ -135,3 +135,13 @@ body{
         top: -70px;
     }
 }
+
+@media (max-width:320px){
+    .login-container{
+        width: 280px;
+    }
+    .container-btn {
+        left: -20px;
+        top: -70px;
+    }
+}

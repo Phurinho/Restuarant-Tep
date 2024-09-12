@@ -106,3 +106,32 @@
         font-size: 4.5rem;
     }
 }
+
+@media (max-width:320px){
+    .hero{
+        height: 57vh;
+    }
+    .hero-text h1{
+        font-size: 2.8rem;
+        margin:-140px 0 20px;
+    }
+    .center-text h6 {
+        font-size: 2.3rem;
+    }
+    .course1,.course2,.course3{
+        height: 57vh;
+    }
+    .course-content h2{
+        font-size: 2.8rem;
+    }
+    .cta{
+        height: 47vh;
+    }
+    .cta-content h2{
+        font-size: 2rem;
+    }
+    .cta-btn{
+        padding: 8px 20px;
+        font-size: 1rem;
+    }
+}
