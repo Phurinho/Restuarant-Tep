@@ -18,7 +18,9 @@ body{
 }
 
 .wrapper{
+    margin: 40px;
     width: 420px;
+    max-height: 650px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(6px);
